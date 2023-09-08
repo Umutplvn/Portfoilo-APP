@@ -1,0 +1,14 @@
+.about_main{
+    background-image: url(../assets//wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+   
+}
+
+.about_box{
+    color:white;
+    padding: 2rem;
+}
