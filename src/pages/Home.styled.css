@@ -2,19 +2,34 @@
 .home_main{
     background-image: url("../assets/wallpaperflare.com_wallpaper (1).jpg");
     background-size: cover;
-    /* background-color: black; */
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/* .homeItem{
-    background-image: url("../assets/gifHome.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 30rem;
-    height: 20rem;
-    background-position: center;
-    padding: "4rem";
-    max-width: "300px";
-    filter: brightness(0.5);
-} */
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #194ea2;
+	font-size: 55px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(158, 0, 0, 0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+
