@@ -9,7 +9,7 @@ const Home = () => {
 
 
   return (
-    <Box className="home_main">
+    <Box className="home_main" id="home">
       <Grid
         container
         spacing={4}
