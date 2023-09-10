@@ -5,7 +5,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import { Link } from "react-scroll";
-
+import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 export default function TabPanel() {
   return (
     <Box
@@ -20,17 +20,22 @@ export default function TabPanel() {
         top: "35%",
         marginRight:"4rem",
         transform: "rotate(90deg)",
+        zIndex:"4"
       }}
     >
       <Link to="home" spy={true} smooth={true} offset={0} duration={500} >
         <HomeMaxIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
       </Link>
 
-      <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+      <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
         <InfoIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
       </Link>
 
-      <Link to="portfoilo" spy={true} smooth={true} offset={50} duration={500}>
+      <Link to="skills" spy={true} smooth={true} offset={0} duration={500}>
+        <AutoFixHighIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
+      </Link>
+
+      <Link to="portfolio" spy={true} smooth={true} offset={0} duration={500}>
         <AccountTreeIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
       </Link>
 

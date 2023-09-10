@@ -1,0 +1,13 @@
+.portfolio_main{
+  /* background-image: url(../assets//wallpaperflare.com_wallpaper\ \(2\).jpg); */
+  background: #0f0e0e;  
+  width: 100vw;
+  height: 110vh;
+  background-position: center;
+ 
+}
+
+.portfolio_box{
+  color:white;
+  padding: 2rem;
+}

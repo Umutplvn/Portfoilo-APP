@@ -5,10 +5,34 @@
     width: 100vw;
     height: 100vh;
     background-position: center;
-   
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    
 }
 
+
+.blur{
+    backdrop-filter: blur(7px);
+    width:100vw;
+    display: "flex";
+}
+
+
 .about_box{
-    color:white;
-    padding: 2rem;
+    color:black;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+
+}
+
+
+.about_box2{
+    color:black;
+    padding: 1rem;
+    color: white;
+text-align: center;
+
+
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.styled.css";
 import { Box, Button, Grid, Typography } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { Link } from "react-scroll";
 
 const Home = () => {
 
@@ -9,7 +10,7 @@ const Home = () => {
 
 
   return (
-    <Box className="home_main" id="home">
+    <Box className="home_main" id="home" >
       <Grid
         container
         spacing={4}
@@ -32,6 +33,7 @@ const Home = () => {
             experiences
           </Typography>
 
+<Link to="about" spy={true} smooth={true} offset={0} duration={500}>
           <Button
             onMouseEnter={()=>setHover(true)}
             onMouseLeave={()=>setHover(false)}
@@ -51,6 +53,7 @@ const Home = () => {
               sx= {hover ? { fontSize: "20px", marginLeft: "0.5rem", transform: "rotate(90deg)", transition:"0.4s"}: { fontSize: "20px", marginLeft: "0.5rem", transition:"0.4s" } }
             />
           </Button>
+</Link>
         </Grid>
         <Grid className="homeItem" item xs={12} md={5} padding={4}>
           
