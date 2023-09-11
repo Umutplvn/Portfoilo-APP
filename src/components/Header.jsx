@@ -6,6 +6,9 @@ import { Typography } from "@mui/material";
 import { Link } from "react-scroll";
 
 export default function ButtonAppBar() {
+
+  const[ hover, setHover]=React.useState(false)    
+
   return (
     <Box sx={{ flexGrow: 1, width: "100%", zIndex:"4", position:"fixed" }}>
       <Box
@@ -32,8 +35,12 @@ export default function ButtonAppBar() {
           />
           <br />
         </Typography>
-<Link  to="contact" spy={true} smooth={true} offset={50} duration={500}>
-        <Button variant="outlined" color="inherit">Contact</Button>
+<Link  to="contact" spy={true} smooth={true} offset={50} duration={500}  onMouseEnter={()=>setHover(true)}
+        onMouseLeave={()=>setHover(false)}>
+        <Button variant="outlined" color="inherit" 
+       
+       sx={hover && {boxShadow:" rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;", transform:"scale(1.01)"}}
+        >Contact</Button>
 </Link>
       </Box>
     </Box>

@@ -37,10 +37,7 @@ const Portfolio = () => {
             <h4 style={{marginTop:"2rem"}}>{item.desc}</h4>
             <h4 style={{marginTop:"0.5rem"}}>{item.built}</h4>
           
-            {/* <h4 style={{marginTop:"0.5rem", color:"orange", display:"flex", alignItems:"center"}}  >Visit the app <span style={{display:"flex", alignItems:"center"}}><ArrowForwardIosIcon/></span> </h4>
-          */}
-
-<a
+          <a
             onMouseEnter={()=>setHover(true)}
             onMouseLeave={()=>setHover(false)}
             onClick={() => window.open(item.link)}
