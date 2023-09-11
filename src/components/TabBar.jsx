@@ -14,33 +14,32 @@ export default function TabPanel() {
         color: "white",
         display: "flex",
         gap:2,
-        height: 224,
         position: "fixed",
         right: "0",
         top: "35%",
-        marginRight:"4rem",
+        marginRight:"-3rem",
         transform: "rotate(90deg)",
-        zIndex:"4"
+        zIndex:"4",
       }}
     >
       <Link to="home" spy={true} smooth={true} offset={0} duration={500} >
-        <HomeMaxIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
+        <HomeMaxIcon sx={{ transform: "rotate(270deg)", cursor:"pointer", ":hover":{ scale:"1.1"} }} />
       </Link>
 
       <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
-        <InfoIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
+        <InfoIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" ,":hover":{ scale:"1.1"}}} />
       </Link>
 
       <Link to="skills" spy={true} smooth={true} offset={0} duration={500}>
-        <AutoFixHighIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
+        <AutoFixHighIcon sx={{ transform: "rotate(270deg)", cursor:"pointer", ":hover":{ scale:"1.1"} }} />
       </Link>
 
       <Link to="portfolio" spy={true} smooth={true} offset={0} duration={500}>
-        <AccountTreeIcon sx={{ transform: "rotate(270deg)", cursor:"pointer" }} />
+        <AccountTreeIcon sx={{ transform: "rotate(270deg)", cursor:"pointer", ":hover":{ scale:"1.1"} }} />
       </Link>
 
       <Link  to="contact" spy={true} smooth={true} offset={50} duration={500}>
-        <ContactMailIcon sx={{ transform: "rotate(270deg)" , cursor:"pointer"}} />
+        <ContactMailIcon sx={{ transform: "rotate(270deg)" , cursor:"pointer", ":hover":{ scale:"1.1"}}} />
       </Link>
     </Box>
   );

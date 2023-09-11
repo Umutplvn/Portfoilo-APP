@@ -1,12 +1,25 @@
 .portfolio_main{
-  background: #0f0e0e;  
+  background-image: url(../assets/purple.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
-  height: 110vh;
+  height: 100vh;
   background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+   
  
 }
 
 .portfolio_box{
+
   color:white;
   padding: 2rem;
+}
+
+
+.blurPortfolio{
+  backdrop-filter: blur(12px);
+  width:100vw;
+  display: "flex";
 }

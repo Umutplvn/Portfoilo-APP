@@ -5,7 +5,7 @@ import { Box, Grid, Typography } from "@mui/material";
 const Skills = () => {
   return (
     <Grid container id="skills" className="skillBox">
-      <Grid item xs={12} md={6}>
+      <Grid item xs={11} md={6}>
         <Box className="skillText">
           <Typography variant="h7" sx={{ color: "grey", p: "1rem" }}>
             A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST
