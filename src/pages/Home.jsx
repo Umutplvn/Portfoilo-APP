@@ -24,13 +24,11 @@ const Home = () => {
       >
         <Grid item xs={10} md={5} mt={"4rem"} color={"white"}>
           <Typography variant="h4" fontWeight={"700"}>
-            Front-End Software Developer
+            Full-Stack Software Developer
           </Typography>
 
           <Typography>
-            Resolving design problems, building smart user interfaces and useful
-            interactions, developing rich web applications and seamless web
-            experiences
+          Responsible for both front-end and back-end development, creating and maintaining web applications and ensuring their functionality and user-friendliness
           </Typography>
 
 <Link to="about" spy={true} smooth={true} offset={0} duration={500}>

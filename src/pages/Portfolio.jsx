@@ -40,7 +40,7 @@ const Portfolio = () => {
           <a
             onMouseEnter={()=>setHover(true)}
             onMouseLeave={()=>setHover(false)}
-            onClick={() => window.open(item.link)}
+            onClick={() => window.open(item?.link)}
             style={{
              color:"#F4A949",
               display: "flex",
@@ -53,10 +53,14 @@ const Portfolio = () => {
             }}
             variant="outlined"
           >
-            Visit the app
-            <ArrowForwardIosIcon
-              sx= {hover ? { fontSize: "20px", marginLeft: "0.5rem", transform: "translateX(0.5rem)", transition:"0.4s"}: { fontSize: "20px", marginLeft: "0.5rem", transition:"0.4s", color:"#F4A949", cursor:"pointer" } }
-            />
+            {item.link ? "Visit the app" : ""}
+            {
+item.link?   <ArrowForwardIosIcon
+sx= {hover ? { fontSize: "20px", marginLeft: "0.5rem", transform: "translateX(0.5rem)", transition:"0.4s"}: { fontSize: "20px", marginLeft: "0.5rem", transition:"0.4s", color:"#F4A949", cursor:"pointer" } }
+/> :""
+
+            }
+          
           </a>
 
 

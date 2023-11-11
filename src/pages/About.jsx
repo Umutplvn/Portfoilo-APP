@@ -13,11 +13,9 @@ const About = () => {
           Hi, I'm Umut
         </Typography>
         <Typography sx={{ fontSize: "2rem", fontWeight: "800" }}>
-          Web Developer
+          Full Stack Developer
         </Typography>
-        <Typography sx={{ color: " rgb(215, 215, 215)" }}>
-          Front End Developer / React Fan
-        </Typography>      
+            
     </Box>
 
 
@@ -25,7 +23,7 @@ const About = () => {
 
     <Box className="about_box2" sx={{ maxWidth:"500px",minWidth:"400px", padding:"1rem", display:"flex", flexDirection:"column", justifyContent:"center",  borderRadius:"1rem", margin:"auto"}}>
     <Typography  sx={{fontSize:'1.3rem'}}>
-    I'm a disciplined and dedicated engineer with a passion for learning. As a web developer, I create innovative digital solutions that combine creativity and functionality. My commitment to lifelong learning keeps me at the forefront of technology trends, ensuring I deliver effective solutions. I excel at collaborating with diverse teams and clients, using my strong communication skills to bring visions to life. Let's create digital excellence together.    </Typography>
+    I'm a disciplined and dedicated engineer with a passion for learning. As a full-stack developer, I create innovative digital solutions that combine creativity and functionality. My commitment to lifelong learning keeps me at the forefront of technology trends, ensuring I deliver effective solutions. I excel at collaborating with diverse teams and clients, using my strong communication skills to bring visions to life. Let's create digital excellence together.    </Typography>
       </Box>
      </Box>
    

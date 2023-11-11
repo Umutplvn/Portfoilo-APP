@@ -19,7 +19,8 @@ export default function ButtonAppBar() {
           color: "white",
           mt: "2rem",
           width: "100vw",
-          padding: "1rem",
+          padding: "2rem",
+
         }}
       >
         <Typography
