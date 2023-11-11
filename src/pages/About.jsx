@@ -12,7 +12,7 @@ const About = () => {
    <Typography sx={{ fontSize: "2rem", fontWeight: "800" }}>
           Hi, I'm Umut
         </Typography>
-        <Typography sx={{ fontSize: "2rem", fontWeight: "800" }}>
+        <Typography sx={{ fontSize: "1.5rem", fontWeight: "800" }}>
           Full Stack Developer
         </Typography>
             

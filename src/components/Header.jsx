@@ -24,7 +24,7 @@ export default function ButtonAppBar() {
         }}
       >
         <Typography
-          fontSize={"16px"}
+          fontSize={"20px"}
           sx={{ fontFamily: "comics", fontWeight: "700" }}
         >
           <Typed
