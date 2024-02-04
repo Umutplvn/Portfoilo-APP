@@ -7,9 +7,17 @@ export const data =[
         imgLink:"/helperImg/stockApp.png",
         link:"https://stockapp-umut.netlify.app",
         id:1,
-        code:"https://github.com/Umutplvn/stock-app-recap"
+        code:"https://github.com/Umutplvn/stock_frontend"
 
     },
+    {   type:"FINANCIAL MANAGEMENT APPLICATION - BACKEND APP",
+    name:"Stock App",
+    desc:"Financial management app for tracking income, expenses, and budgeting efficiently.",
+    built:"ExpressJS, NodeJS, MongoDB and more",
+    imgLink:"/helperImg/backend1.png",
+    id:4,
+    code:"https://github.com/Umutplvn/stock_backend"
+},
 
     {   type:"BLOG",
     name:"Legere",
@@ -18,9 +26,20 @@ export const data =[
     imgLink:"/helperImg/blogApp.png",
     link:"https://legere.netlify.app/",
     id:2,
-    code:"https://github.com/Umutplvn/Legere-V3-APP"
+    code:"https://github.com/Umutplvn/blogApp_frontend"
 
 },
+
+{   type:"BLOG APP - BACKEND APP",
+name:"Legere",
+desc:"Interactive blogging platform for engaging content creators and readers.",
+built:"ExpressJS, NodeJS, MongoDB and more",
+imgLink:"/helperImg/backend1.png",
+id:7,
+code:"https://github.com/Umutplvn/blogApp_backend"
+},
+
+
 {   type:"E-COMMERCE APPLICATION",
     name:"Shopping App",
     desc:"Online store for shopping",
@@ -31,14 +50,7 @@ export const data =[
     code:"https://github.com/Umutplvn/shopping-app"
 },
 
-{   type:"FINANCIAL MANAGEMENT APPLICATION - BACKEND APP",
-    name:"Stock App",
-    desc:"Financial management app for tracking income, expenses, and budgeting efficiently.",
-    built:"ExpressJS, NodeJS, MongoDB and more",
-    imgLink:"/helperImg/backend1.png",
-    id:4,
-    code:"https://github.com/Umutplvn/StockAPI-Backend-APP"
-},
+
 
 {   type:"CAR RENTAL APP - BACKEND API",
     name:"Rent A Car",
@@ -57,7 +69,5 @@ export const data =[
     id:6,
     code:"https://github.com/Umutplvn/PizzaAPI-Backend-APP"
 }
-
-
 
 ]

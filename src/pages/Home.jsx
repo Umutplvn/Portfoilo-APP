@@ -28,7 +28,7 @@ const Home = () => {
           </Typography>
 
           <Typography>
-          Responsible for both front-end and back-end development, ensuring the seamless functionality and user-friendliness of web applications.          </Typography>
+          Responsible for both front-end and back-end development, ensuring the seamless functionality and user friendliness of web applications.          </Typography>
 
 <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
           <Button

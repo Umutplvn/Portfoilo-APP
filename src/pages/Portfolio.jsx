@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
-import { Box, Grid } from "@mui/material";
+import { Box } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { data } from "../helper/data";
-import { Button } from "react-scroll";
 
 const imgStyle = {
   width: "100%",
