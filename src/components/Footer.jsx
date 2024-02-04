@@ -7,7 +7,7 @@ const Footer = () => {
     <Box sx={{position:"sticky", bottom:"0", display:"flex", gap:"1.5rem", margin:"2rem", left:0}}>
 
        <Link to={"https://github.com/Umutplvn"} >
-        <i style={{fontSize:"2rem", color:"white", marginBottom:"1rem"}} className="fa-brands fa-github-alt"></i>
+        <i  style={{fontSize:"2rem", color:"white", marginBottom:"1rem", }} className="fa-brands fa-github-alt"></i>
        </Link>
 
        <Link  to={"https://www.linkedin.com/in/umut-pehlivan-817b28174/"}>
