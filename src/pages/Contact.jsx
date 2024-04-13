@@ -14,7 +14,7 @@ const Contact = () => {
         alignItems={"center"}
         md={6}
       >
-        <div style={{ display: { xs: "none" } }} id="world">
+        <div style={{ display: { xs: "none", color:"black" } }} id="world">
           Contact
         </div>
       </Grid>

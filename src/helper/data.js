@@ -27,7 +27,7 @@ export const data = [
     desc: "Interactive social networking platform that enables users to connect with each other.",
     built: "Redux, JS, React and more",
     imgLink: "/helperImg/connectify.png",
-    link: "https://stockapp-umut.netlify.app",
+    link: "https://connectify-umut.netlify.app",
     id: 3,
     code: "https://github.com/Umutplvn/connectify_frontend",
   },
@@ -78,6 +78,31 @@ export const data = [
     code: "https://github.com/Umutplvn/Movie_Web-APP",
   },  
 
+ // NBA legends App 
+{
+    type: "SPORT",
+    name: "NBA LEGENDS",
+    desc: "A website showcasing NBA legends and some info about their careers. ",
+    built: "React, JS, and more",
+    imgLink: "/helperImg/nbalegends.png",
+    link: "https://nba-legends-umut.netlify.app/",
+    id: 8,
+    code: "https://github.com/Umutplvn/NBA-legends-APP",
+  },  
+ 
+   // Meal Recipes App 
+{
+    type: "RECIPE",
+    name: "MEAL RECIPES",
+    desc: "A website with countless delicious recipes. ",
+    built: "React, JS, and more",
+    imgLink: "/helperImg/meal.png",
+    link: "https://meal-recipes-umut.netlify.app/",
+    id: 9,
+    code: "https://github.com/Umutplvn/Meal_Recipe-APP",
+  },  
+ 
+
 //Shopping App
 
   {
@@ -87,7 +112,7 @@ export const data = [
     built: "React, JS, MUI, and more",
     imgLink: "/helperImg/shoppingApp.png",
     link: "https://shopping-app-umut.netlify.app/",
-    id: 8,
+    id: 10,
     code: "https://github.com/Umutplvn/shopping-app",
   },
 
@@ -99,7 +124,7 @@ export const data = [
     desc: "This car rental program offers a convenient and affordable way to access a wide range of vehicles for your transportation needs.",
     built: "ExpressJS, NodeJS, MongoDB and more",
     imgLink: "/helperImg/backend1.png",
-    id: 9,
+    id: 11,
     code: "https://github.com/Umutplvn/RentACar-Backend-APP",
   },
 
@@ -110,7 +135,7 @@ export const data = [
     desc: "A pizza order app offering a wide range of topping choices and more.",
     built: "ExpressJS, NodeJS, MongoDB and more",
     imgLink: "/helperImg/backend1.png",
-    id: 10,
+    id: 12,
     code: "https://github.com/Umutplvn/PizzaAPI-Backend-APP",
   },
 ];
