@@ -52,9 +52,9 @@ const Portfolio = () => {
             }}
             variant="outlined"
           >
-            {item.link ? "Visit the app" : ""}
+            {item?.link ? "Visit the app" : ""}
             {
-item.link?   <ArrowForwardIosIcon
+item?.link?   <ArrowForwardIosIcon
 sx= {hover ? { fontSize: "20px", marginLeft: "0.5rem", transform: "translateX(0.5rem)", transition:"0.4s"}: { fontSize: "20px", marginLeft: "0.5rem", transition:"0.4s", color:"#F4A949", cursor:"pointer" } }
 /> :""
 
