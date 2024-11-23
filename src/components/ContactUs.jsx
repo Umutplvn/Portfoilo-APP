@@ -66,11 +66,11 @@ const ContactUs = () => {
         }}
       >
         <label>Name</label>
-        <input required style={{height:"1.5rem", padding:"0.5rem 0 0.5rem 0"}} type="text" name="from_name" placeholder="John" />
+        <input required style={{height:"1.5rem", padding:"0.8rem 0 0.8rem 0.2rem"}} type="text" name="from_name" placeholder="John" />
         <label  style={{ marginTop: "1rem" }} >Email</label>
-        <input required style={{height:"1.5rem", padding:"0.5rem 0 0.5rem 0"}}placeholder="email@address.com" type="email" name="from_email" />
+        <input required style={{height:"1.5rem", padding:"0.8rem 0 0.8rem 0.2rem"}}placeholder="email@address.com" type="email" name="from_email" />
         <label style={{ marginTop: "1rem" }}>Message</label>
-        <textarea required style={{ height: "5rem" }} placeholder="Type your message..." name="message" />
+        <textarea required style={{ height: "5rem", padding:"0.2rem 0 0.8rem 0.2rem"}} placeholder="Type your message..." name="message" />
         <input
           style={{
             marginTop: "1rem",

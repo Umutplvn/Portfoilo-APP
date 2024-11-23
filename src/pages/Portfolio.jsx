@@ -3,10 +3,13 @@ import "./Portfolio.css";
 import { Box } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { data } from "../helper/data";
 
 const imgStyle = {
   width: "100%",
+  maxHeight: "100%",
+  objectFit: "cover",
   border: "14px solid black",
   borderRadius: "1rem",
 };
@@ -17,23 +20,38 @@ const Portfolio = () => {
 
   return (
     <Box sx={{ height: "100vh" }} className="portfolio_main" id="portfolio">
-      <Box className="blurPortfolio" sx={{ display: "flex", flexWrap: "wrap" }}>
+      <Box className="blurPortfolio" sx={{ display: "flex", flexWrap: "wrap", pt:"5rem" }}>
         <Carousel
-          sx={{ width: "100%", margin: "auto" }}
+          sx={{ width: "100%", margin: "auto", height:"100%" }}
           stopAutoPlayOnHover
-          navButtonsAlwaysInvisible="true"
+          navButtonsAlwaysVisible={true}
+          indicatorContainerProps={{
+            style: {
+              position: 'absolute',
+              bottom: '50px'
+            }
+          }}
+          navButtonsProps={{
+            style: {
+              backgroundColor: 'rgba(0, 0, 0, 0.5)',
+              borderRadius: '50%',
+              marginTop:"250%",
+            }
+          }}
+          NextIcon={<ArrowForwardIosIcon sx={{ fontSize: 30, color: "#F4A949" }} />}
+          PrevIcon={<ArrowBackIosIcon sx={{ fontSize: 30, color: "#F4A949" }} />}
         >
-          {data?.map((item) => (
+          {data?.map((item, index) => (
             <Box
+              key={index}
               sx={{
                 display: "flex",
                 flexWrap: "wrap",
-                height: "90vh",
                 padding: "2rem",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "1rem",
-                fontFamily:"sans-serif"
+                fontFamily: "sans-serif",
               }}
             >
               <Box sx={{ color: "white", width: "400px" }}>
@@ -134,10 +152,11 @@ const Portfolio = () => {
                   justifyContent: "center",
                   width: "90%",
                   maxWidth: "700px",
+                  maxHeight: "500px", // Ensure all image containers are of equal height
                   overflow: "hidden",
                 }}
               >
-                <img style={imgStyle} src={item.imgLink} alt="" />
+                <img style={imgStyle} src={item.imgLink} alt={item.name} />
               </Box>
             </Box>
           ))}
@@ -148,7 +167,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-{
-  /*  */
-}

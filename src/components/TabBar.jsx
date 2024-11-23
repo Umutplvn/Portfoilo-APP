@@ -17,9 +17,12 @@ export default function TabPanel() {
         position: "fixed",
         right: "0",
         top: "35%",
-        marginRight:"-3rem",
+        marginRight:"-4.5rem",
         transform: "rotate(90deg)",
         zIndex:"4",
+        borderRadius:"0.5rem",
+        padding:"0.6rem 0.5rem 0.5rem 0.5rem",
+        backgroundColor:"rgba(100, 100, 100, 0.2) "
       }}
     >
       <Link to="home" spy={true} smooth={true} offset={0} duration={500} >

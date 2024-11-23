@@ -41,6 +41,28 @@ export const data = [
     code: "https://github.com/Umutplvn/connectify_backend",
   },
 
+  //DEFI
+  {
+    type: "FITNESS APPLICATION",
+    name: "DEFI",
+    desc: "A dynamic web app for personal trainers and clients, offering customizable profiles, live chat, metric tracking, blogs, and secure Stripe payments.",
+    built: "Redux, JS, React, Stripe and more",
+    imgLink: "/helperImg/defi.png",
+    link: "https://defifitness.netlify.app/",
+    id: 5,
+    code: "https://github.com/Umutplvn/Defi_Fitness_Client",
+  },
+  {
+    type: "FITNESS APPLICATION - BACKEND APP",
+    name: "DEFI",
+    desc: "A dynamic web app for personal trainers and clients, offering customizable profiles, live chat, metric tracking, blogs, and secure Stripe payments.",
+    built: "Redux, JS, React, Stripe and more.",
+    built: "ExpressJS, NodeJS, MongoDB and more",
+    imgLink: "/helperImg/backend1.png",
+    id: 6,
+    code: "https://github.com/Umutplvn/DEFI_Fitness_Server",
+  },
+
 
 
 //Legere 
@@ -52,7 +74,7 @@ export const data = [
     built: "React, Redux Toolkit, JS, and more",
     imgLink: "/helperImg/legere.png",
     link: "https://legere.netlify.app/",
-    id: 5,
+    id: 7,
     code: "https://github.com/Umutplvn/Legere-V3-APP",
   },
 
@@ -62,7 +84,7 @@ export const data = [
     desc: "Interactive blogging platform for engaging content creators and readers.",
     built: "ExpressJS, NodeJS, MongoDB and more",
     imgLink: "/helperImg/backend1.png",
-    id: 6,
+    id: 8,
     code: "https://github.com/Umutplvn/blogApp_backend",
   },
 
@@ -74,7 +96,7 @@ export const data = [
     built: "React, JS, and more",
     imgLink: "/helperImg/movieapp.png",
     link: "https://movie-web-app-umut.netlify.app/",
-    id: 7,
+    id: 9,
     code: "https://github.com/Umutplvn/Movie_Web-APP",
   },  
 
@@ -86,10 +108,22 @@ export const data = [
     built: "React, JS, and more",
     imgLink: "/helperImg/nbalegends.png",
     link: "https://nba-legends-umut.netlify.app/",
-    id: 8,
+    id: 10,
     code: "https://github.com/Umutplvn/NBA-legends-APP",
   },  
  
+ // How To Sell
+ {
+  type: "CONSULTING",
+  name: "HOW TO SELL",
+  desc: "'How to Sell', a MERN app, was developed with a sleek design, Typeform integration, secure Nodemailer authentication, and efficient data management.",
+  built: "React, JS, ExpressJs, NodeJs and more",
+  imgLink: "/helperImg/howtosell.png",
+  link: "https://howtosell.io/",
+  id: 10,
+  code: "https://github.com/Umutplvn/howtosell_client",
+},  
+
    // Meal Recipes App 
 {
     type: "RECIPE",
@@ -98,44 +132,8 @@ export const data = [
     built: "React, JS, and more",
     imgLink: "/helperImg/meal.png",
     link: "https://meal-recipes-umut.netlify.app/",
-    id: 9,
+    id: 11,
     code: "https://github.com/Umutplvn/Meal_Recipe-APP",
   },  
  
-
-//Shopping App
-
-  {
-    type: "E-COMMERCE APPLICATION",
-    name: "Shopping App",
-    desc: "Online store for shopping",
-    built: "React, JS, MUI, and more",
-    imgLink: "/helperImg/shoppingApp.png",
-    link: "https://shopping-app-umut.netlify.app/",
-    id: 10,
-    code: "https://github.com/Umutplvn/shopping-app",
-  },
-
-//Car Rental App
-
-  {
-    type: "CAR RENTAL APP - BACKEND API",
-    name: "Rent A Car",
-    desc: "This car rental program offers a convenient and affordable way to access a wide range of vehicles for your transportation needs.",
-    built: "ExpressJS, NodeJS, MongoDB and more",
-    imgLink: "/helperImg/backend1.png",
-    id: 11,
-    code: "https://github.com/Umutplvn/RentACar-Backend-APP",
-  },
-
-//Pizza Api
-  {
-    type: "PIZZA ORDER API - BACKEND API",
-    name: "Pizza Pizza",
-    desc: "A pizza order app offering a wide range of topping choices and more.",
-    built: "ExpressJS, NodeJS, MongoDB and more",
-    imgLink: "/helperImg/backend1.png",
-    id: 12,
-    code: "https://github.com/Umutplvn/PizzaAPI-Backend-APP",
-  },
 ];
