@@ -88,13 +88,14 @@ const ContactUs = () => {
           placeholder="Type your message..."
           name="message"
         />
-        <input
+        <button
           style={{
             marginTop: "1rem",
             width: "80px",
+            height:"35px",
             margin: "1rem auto",
             fontFamily: "Silkscreen, sans-serif",
-            backgroundColor: "white",
+            backgroundColor: "white !important",
             padding: "0.2rem",
             cursor: "pointer",
             fontWeight: "600",
@@ -104,7 +105,8 @@ const ContactUs = () => {
           }}
           type="submit"
           value="Send"
-        />
+        >Send</button>
+        
       </form>
     </div>
   );

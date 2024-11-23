@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.fc20d1c3.css",
-    "main.js": "/static/js/main.081a4e70.js",
+    "main.js": "/static/js/main.6ff7bfba.js",
     "static/media/purple.jpeg": "/static/media/purple.ffe114fcbf01bc4af3c3.jpeg",
     "static/media/wallpaperflare.com_wallpaper (1).jpg": "/static/media/wallpaperflare.com_wallpaper (1).8c44b8ef8f0a72323b3a.jpg",
     "static/media/wallpaperflare.com_wallpaper (2).jpg": "/static/media/wallpaperflare.com_wallpaper (2).1ca4fa13f8b193e1001c.jpg",
     "index.html": "/index.html",
     "main.fc20d1c3.css.map": "/static/css/main.fc20d1c3.css.map",
-    "main.081a4e70.js.map": "/static/js/main.081a4e70.js.map"
+    "main.6ff7bfba.js.map": "/static/js/main.6ff7bfba.js.map"
   },
   "entrypoints": [
     "static/css/main.fc20d1c3.css",
-    "static/js/main.081a4e70.js"
+    "static/js/main.6ff7bfba.js"
   ]
 }
