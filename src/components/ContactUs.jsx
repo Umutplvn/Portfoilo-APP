@@ -31,25 +31,27 @@ const ContactUs = () => {
       style={{
         height: "450px",
         borderRadius: "1rem",
-        fontFamily: "Silkscreen, cursive",
+        fontFamily: "Inter, sans-serif",
         margin: "auto",
         width:"400px"
       }}
     >
-      <h3
+      <h2
         style={{
           color: "white",
           textAlign: "center",
           padding: "1rem",
           marginTop: "2rem",
+          fontSize:"1.3rem",
+          fontWeight:"700"
         }}
       >
         <i
           className="fa-solid fa-satellite-dish fa-fade"
-          style={{ color: " #ffffff", fontSize: "3rem", marginRight: "1rem" }}
+          style={{ color: " #ffffff", fontSize: "3rem", marginRight: "1.2rem" }}
         ></i>
         Contact Me
-      </h3>
+      </h2>
       <form
         ref={form}
         onSubmit={sendEmail}
@@ -60,23 +62,28 @@ const ContactUs = () => {
           minWidth: "310px",
           maxWidth: "420px",
           padding: "1rem",
+          fontSize:"1.05rem",
         }}
       >
         <label>Name</label>
-        <input required style={{height:"1.5rem", padding:"0.5rem"}} type="text" name="from_name" />
-        <label  style={{ marginTop: "1rem" }}>Email</label>
-        <input required style={{height:"1.5rem", padding:"0.5rem"}} type="email" name="from_email" />
+        <input required style={{height:"1.5rem", padding:"0.5rem 0 0.5rem 0"}} type="text" name="from_name" placeholder="John" />
+        <label  style={{ marginTop: "1rem" }} >Email</label>
+        <input required style={{height:"1.5rem", padding:"0.5rem 0 0.5rem 0"}}placeholder="email@address.com" type="email" name="from_email" />
         <label style={{ marginTop: "1rem" }}>Message</label>
-        <textarea required style={{ height: "5rem", padding:"0.5rem" }} name="message" />
+        <textarea required style={{ height: "5rem" }} placeholder="Type your message..." name="message" />
         <input
           style={{
             marginTop: "1rem",
-            width: "60px",
+            width: "80px",
             margin: "1rem auto",
-            fontFamily: "Silkscreen, cursive",
+            fontFamily: "Inter, sans-serif",
             backgroundColor: "white",
             padding: "0.2rem",
             cursor: "pointer",
+            fontWeight:"600",
+            borderRadius:"0.3rem",
+            fontSize:"1.05rem"
+
           }}
           type="submit"
           value="Send"
