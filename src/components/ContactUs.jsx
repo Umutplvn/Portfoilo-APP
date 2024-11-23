@@ -94,7 +94,7 @@ const ContactUs = () => {
             width: "80px",
             margin: "1rem auto",
             fontFamily: "Silkscreen, sans-serif",
-            backgroundColor: "white !important",
+            backgroundColor: "white",
             padding: "0.2rem",
             cursor: "pointer",
             fontWeight: "600",
