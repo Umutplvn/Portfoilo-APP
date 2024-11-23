@@ -22,8 +22,8 @@ const ContactUs = () => {
           console.log(error.text);
         }
       );
-      e.target.reset()
-      toastSuccessNotify("Email has been sent successfully.")
+    e.target.reset();
+    toastSuccessNotify("Email has been sent successfully.");
   };
 
   return (
@@ -31,9 +31,9 @@ const ContactUs = () => {
       style={{
         height: "450px",
         borderRadius: "1rem",
-        fontFamily: "Inter, sans-serif",
+        fontFamily: "Silkscreen, sans-serif",
         margin: "auto",
-        width:"400px"
+        width: "400px",
       }}
     >
       <h2
@@ -42,8 +42,8 @@ const ContactUs = () => {
           textAlign: "center",
           padding: "1rem",
           marginTop: "2rem",
-          fontSize:"1.3rem",
-          fontWeight:"700"
+          fontSize: "1.3rem",
+          fontWeight: "700",
         }}
       >
         <i
@@ -62,28 +62,45 @@ const ContactUs = () => {
           minWidth: "310px",
           maxWidth: "420px",
           padding: "1rem",
-          fontSize:"1.05rem",
+          fontSize: "1.05rem",
         }}
       >
         <label>Name</label>
-        <input required style={{height:"1.5rem", padding:"0.8rem 0 0.8rem 0.2rem"}} type="text" name="from_name" placeholder="John" />
-        <label  style={{ marginTop: "1rem" }} >Email</label>
-        <input required style={{height:"1.5rem", padding:"0.8rem 0 0.8rem 0.2rem"}}placeholder="email@address.com" type="email" name="from_email" />
+        <input
+          required
+          style={{ height: "1.5rem", padding: "0.8rem 0 0.8rem 0.2rem" }}
+          type="text"
+          name="from_name"
+          placeholder="John"
+        />
+        <label style={{ marginTop: "1rem" }}>Email</label>
+        <input
+          required
+          style={{ height: "1.5rem", padding: "0.8rem 0 0.8rem 0.2rem" }}
+          placeholder="email@address.com"
+          type="email"
+          name="from_email"
+        />
         <label style={{ marginTop: "1rem" }}>Message</label>
-        <textarea required style={{ height: "5rem", padding:"0.2rem 0 0.8rem 0.2rem"}} placeholder="Type your message..." name="message" />
+        <textarea
+          required
+          style={{ height: "5rem", padding: "0.2rem 0 0.8rem 0.2rem" }}
+          placeholder="Type your message..."
+          name="message"
+        />
         <input
           style={{
             marginTop: "1rem",
             width: "80px",
             margin: "1rem auto",
-            fontFamily: "Inter, sans-serif",
-            backgroundColor: "white",
+            fontFamily: "Silkscreen, sans-serif",
+            backgroundColor: "white !important",
             padding: "0.2rem",
             cursor: "pointer",
-            fontWeight:"600",
-            borderRadius:"0.3rem",
-            fontSize:"1.05rem"
-
+            fontWeight: "600",
+            borderRadius: "0.3rem",
+            fontSize: "1.05rem",
+            color: "black !important",
           }}
           type="submit"
           value="Send"
