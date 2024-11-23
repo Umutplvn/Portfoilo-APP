@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.styled.css";
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 const About = () => {
   return (
     <Box className="about_main" id="about">

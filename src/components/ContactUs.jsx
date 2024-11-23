@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import imgBg from "../assets/wallpaperflare.com_wallpaper.jpg";
 import { toastSuccessNotify } from "../helper/toastify";
 const ContactUs = () => {
   const form = useRef();
